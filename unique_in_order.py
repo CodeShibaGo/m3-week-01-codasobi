@@ -1,3 +1,10 @@
 def unique_in_order(iterable):
-    pass
-print(unique_in_order('AAABDEDDSSSD'))
+    list = []
+    prev_char = ''
+
+    for char in iterable:
+        if char != prev_char:
+            list.append(char)
+            prev_char = char
+
+    return list

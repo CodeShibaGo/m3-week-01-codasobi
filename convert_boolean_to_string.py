@@ -1,2 +1,5 @@
-def boolean_to_string(b):
-    pass
+def boolean_to_string(boolean):
+    if boolean:
+        return 'True'
+    else:
+        return 'False'

@@ -1,2 +1,3 @@
+import math
 def is_square(n):
-    pass
+    return math.sqrt(n).is_integer()
